@@ -1704,3 +1704,44 @@ FPackageName: Skipped package /Game/LevelPrototyping/Materials/MI_Solid_Blue has
 [2025.08.23-05.07.14:638][572]LogMeshUtilities: Finished distance field build in 2.9s - 126x126x126 sparse distance field, 1.8Mb total, 0.1Mb always loaded, 51% occupied, 522 triangles, StaticMesh_HLOD0_Instancing_3
 [2025.08.23-05.07.16:677][695]LogMeshUtilities: Finished distance field build in 2.9s - 126x126x126 sparse distance field, 2.0Mb total, 0.1Mb always loaded, 55% occupied, 522 triangles, StaticMesh_HLOD0_Instancing_3
 [2025.08.23-05.07.17:993][773]LogMeshUtilities: Finished distance field build in 2.2s - 126x126x126 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 40% occupied, 522 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.23-05.08.55:522][108]LogShaderCompilers: Display: ================================================
+[2025.08.23-05.08.55:522][108]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.08.23-05.08.55:522][108]LogShaderCompilers: Display: Total job queries 1,283, among them cache hits 3 (0.23%), DDC hits 108 (8.42%), Duplicates 207 (16.13%)
+[2025.08.23-05.08.55:522][108]LogShaderCompilers: Display: Tracking 1,073 distinct input hashes that result in 842 distinct outputs (78.47%)
+[2025.08.23-05.08.55:522][108]LogShaderCompilers: Display: RAM used: 595.32 KiB of 1.60 GiB budget. Usage: 0.04%
+[2025.08.23-05.08.55:522][108]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.08.23-05.08.55:522][108]LogShaderCompilers: Display: Shaders Compiled: 965
+[2025.08.23-05.08.55:522][108]LogShaderCompilers: Display: Jobs assigned 965, completed 965 (100%)
+[2025.08.23-05.08.55:522][108]LogShaderCompilers: Display: Average time worker was idle: 0.31 s
+[2025.08.23-05.08.55:522][108]LogShaderCompilers: Display: Time job spent in pending queue: average 50.52 s, longest 117.59 s
+[2025.08.23-05.08.55:522][108]LogShaderCompilers: Display: Job execution time: average 9.42 s, max 28.49 s
+[2025.08.23-05.08.55:522][108]LogShaderCompilers: Display: Job life time (pending + execution): average 59.95 s, max 118.51
+[2025.08.23-05.08.55:522][108]LogShaderCompilers: Display: Shader code size: average 12.277 KiB, min 1.199 KiB, max 49.212 KiB
+[2025.08.23-05.08.55:522][108]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 124.38 s
+[2025.08.23-05.08.55:522][108]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.08.23-05.08.55:522][108]LogShaderCompilers: Display: Jobs were issued in 125 batches (only local compilation was used), average 7.72 jobs/batch
+[2025.08.23-05.08.55:522][108]LogShaderCompilers: Display: Average processing rate: 7.76 jobs/sec
+[2025.08.23-05.08.55:522][108]LogShaderCompilers: Display: Total thread time: 929.098 s
+[2025.08.23-05.08.55:523][108]LogShaderCompilers: Display: Total thread preprocess time: 26.926 s
+[2025.08.23-05.08.55:523][108]LogShaderCompilers: Display: Percentage time preprocessing: 2.90%
+[2025.08.23-05.08.55:523][108]LogShaderCompilers: Display: Effective parallelization: 7.47 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.08.23-05.08.55:523][108]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.08.23-05.08.55:523][108]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    1 times, average 2.58 sec, max 2.58 sec, min 2.58 sec)
+[2025.08.23-05.08.55:523][108]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    1 times, average 2.50 sec, max 2.50 sec, min 2.50 sec)
+[2025.08.23-05.08.55:523][108]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS (compiled  260 times, average 2.11 sec, max 4.89 sec, min 0.00 sec)
+[2025.08.23-05.08.55:523][108]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    1 times, average 1.84 sec, max 1.84 sec, min 1.84 sec)
+[2025.08.23-05.08.55:523][108]LogShaderCompilers: Display:                               FLightFunctionRayTracingShader (compiled    1 times, average 1.65 sec, max 1.65 sec, min 1.65 sec)
+[2025.08.23-05.08.55:523][108]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.08.23-05.08.55:523][108]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 59.01% of total time (compiled  260 times, average 2.11 sec, max 4.89 sec, min 0.00 sec)
+[2025.08.23-05.08.55:523][108]LogShaderCompilers: Display:                                               FHWRasterizeMS - 4.98% of total time (compiled   60 times, average 0.77 sec, max 1.03 sec, min 0.51 sec)
+[2025.08.23-05.08.55:523][108]LogShaderCompilers: Display:                                             FDebugViewModePS - 3.70% of total time (compiled   22 times, average 1.56 sec, max 2.01 sec, min 1.12 sec)
+[2025.08.23-05.08.55:523][108]LogShaderCompilers: Display:                                               FHWRasterizeVS - 2.85% of total time (compiled   42 times, average 0.63 sec, max 0.83 sec, min 0.41 sec)
+[2025.08.23-05.08.55:523][108]LogShaderCompilers: Display:                                 FTranslucentLightingInjectPS - 2.57% of total time (compiled   64 times, average 0.37 sec, max 0.68 sec, min 0.08 sec)
+[2025.08.23-05.08.55:523][108]LogShaderCompilers: Display: === Material stats ===
+[2025.08.23-05.08.55:523][108]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.08.23-05.08.55:523][108]LogShaderCompilers: Display: Materials Translated:    129
+[2025.08.23-05.08.55:523][108]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2025.08.23-05.08.55:523][108]LogShaderCompilers: Display: Material Translation Only: 0.05 s (42%)
+[2025.08.23-05.08.55:523][108]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.08.23-05.08.55:523][108]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.08.23-05.08.55:523][108]LogShaderCompilers: Display: ================================================
